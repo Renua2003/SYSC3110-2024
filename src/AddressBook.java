@@ -21,6 +21,10 @@ public class AddressBook {
 
     }
 
+    public void doesnothing(){
+        System.out.println("Yowa");
+    }
+
     public static void main(String[] args) {
         System.out.println("address book");
         BuddyInfo Renua = new BuddyInfo("Daniel","12 street","445678" );
