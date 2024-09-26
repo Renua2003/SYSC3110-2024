@@ -25,7 +25,7 @@ public class BuddyInfo {
         this.name= "Renua";
         this.Address="50 preston street";
         this.number="1234891085";
-        //just adding some comments
+        //just adding some commentsk
     }
 
     public static void main(String[] args) {
