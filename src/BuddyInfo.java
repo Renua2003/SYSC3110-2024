@@ -28,6 +28,21 @@ public class BuddyInfo {
         //just adding some commentsk
     }
 
+    @Override
+    public String toString() {
+        return name + ", " + Address + ", " + number;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        BuddyInfo buddyInfo = (BuddyInfo) o;
+        return name.equals(buddyInfo.name) &&
+                Address.equals(buddyInfo.Address) &&
+                number.equals(buddyInfo.number);
+    }
+
     public static void main(String[] args) {
         System.out.println("hello world");
         BuddyInfo buddyInfo = new BuddyInfo("renua","50 preston street","1234891085");
